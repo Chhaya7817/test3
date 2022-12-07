@@ -1,0 +1,108 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    font-size: 1.5rem;
+}
+header{
+    height:80px;
+    width:100%;
+    display: flex;
+    background-color: grey;
+    align-items: center;
+}
+header div{
+    margin-left: 50px;
+}
+.colors{
+    background-color: rgb(59, 39, 39);
+    display: flex;
+    width:15%;
+    height:50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.colors div{
+    width:30px;
+    height:30px;
+    border-radius: 10px;
+    margin-left: 5px;
+    
+}
+.colors .red{
+    background-color: red;
+    cursor: pointer;
+}
+.colors .blue{
+    background-color: blue;
+    cursor: pointer;
+
+}
+.colors .green{
+    background-color: green;
+    cursor: pointer;
+
+}
+.colors .black{
+    background-color: black;
+    cursor: pointer;
+
+}
+.btns .fa-sharp{
+    background-color: aliceblue;
+}
+.popup{
+    margin-top: 20px;
+    height: 60vh;
+    width:30%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+.popup .content{
+    width: 80%;
+    height:100%;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.popup .content .text{
+    background-color: aliceblue;
+    height:80%;
+    width:80%;
+}
+.popup .content input{
+    border:0px white;
+}
+.popup .c{
+    width: 20%;
+    height:100%;
+    background-color: grey;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.popup .colors{
+    width: 85%;
+    height:90%;
+    background-color: rgb(138, 83, 83);
+    display: flex;
+    flex-direction: column;
+    background-color: navajowhite;
+}
+.popup .colors div{
+    width:50px;
+    height:50px;
+    border-radius: 10px;
+    margin-left: 5px;
+    
+}

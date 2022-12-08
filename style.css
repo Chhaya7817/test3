@@ -15,6 +15,8 @@ header{
     display: flex;
     background-color: grey;
     align-items: center;
+    margin-bottom: 150px;
+
 }
 header div{
     margin-left: 50px;
@@ -58,16 +60,18 @@ header div{
 }
 .popup{
     margin-top: 20px;
-    height: 60vh;
+    height: 300px;
     width:30%;
     background-color: lightgray;
     display: flex;
     align-items: center;
     justify-content: space-between;
     display: none;
+    justify-content: cover;
+    
 }
 .popup .content{
-    width: 80%;
+    width: 70%;
     height:100%;
     background-color: inherit;
     display: flex;
@@ -84,7 +88,7 @@ header div{
     border:0px white;
 }
 .popup .c{
-    width: 20%;
+    width: 30%;
     height:100%;
     background-color: grey;
     justify-content: center;
@@ -105,4 +109,36 @@ header div{
     border-radius: 10px;
     margin-left: 5px;
     
+}
+
+.box
+{
+    height:500px;
+    width:300px;
+    /* flex-wrap: wrap; */
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: start;
+    padding-bottom: 100px;
+}
+.banner
+{
+    width: 100%;
+    height:30px;
+    /* width:40px; */
+    background-color: rgb(186, 168, 168);
+    
+}
+
+ .head{
+    width: 100%;
+    height:30px;
+    background-color: rgb(225, 143, 20);
+}
+div .content{
+    width:100%;
+    height:50%;
+    background-color: rgb(240, 232, 237);
 }
